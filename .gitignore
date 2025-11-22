@@ -1,0 +1,26 @@
+# Ignorar carpetas generadas automáticamente por Unity
+Library/
+Library/PackageCache/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.booproj
+*.svd
+.vs/
+.vscode/
+.idea/
+*.apk
+*.aab
+*.exe
+*.app
+*.manifest
+.DS_Store
