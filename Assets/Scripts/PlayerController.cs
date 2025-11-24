@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     {
         // Movimiento lateral
         float move = Input.GetAxis("Horizontal");
-        rb.velocity = new Vector3(move * speed, rb.velocity.y, 0);
+        rb.linearVelocity = new Vector3(move * speed, rb.linearVelocity.y, 0);
 
         // Saltar con flecha ARRIBA o espacio
         if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space)) && jumpCount < maxJumps)
@@ -30,7 +30,7 @@ public class PlayerController : MonoBehaviour
 
     void Jump()
     {
-        rb.velocity = new Vector3(rb.velocity.x, 0, 0); // resetear velocidad vertical
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, 0); // resetear velocidad vertical
         rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         jumpCount++;
     }
