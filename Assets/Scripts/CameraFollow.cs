@@ -10,15 +10,16 @@ public class CameraFollow : MonoBehaviour
     {
         if (target == null) return;
 
-        // Solo sigue en Z y Y (como Mario)
+        // Posición suavizada
         Vector3 desiredPosition = new Vector3(
-            transform.position.x,                      // X fijo
-            target.position.y + offset.y,             // Sigue altura
-            target.position.z + offset.z              // Sigue avance
+            transform.position.x,
+            target.position.y + offset.y,
+            target.position.z + offset.z
         );
 
         transform.position = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
 
-        transform.LookAt(target);
+        // Rotación fija
+        transform.rotation = Quaternion.Euler(20f, 0f, 0f);
     }
 }
