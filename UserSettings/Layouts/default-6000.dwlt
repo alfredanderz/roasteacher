@@ -14,10 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.ContainerWindow
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 62
-    width: 1024
-    height: 768
+
   m_ShowMode: 4
   m_Title: Project
   m_RootView: {fileID: 2}
@@ -1098,7 +1095,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 71.09985}
     m_SelectedIDs: 4acb0000
     m_LastClickedID: 52042
-    m_ExpandedIDs: 00000000eeb1000000ca9a3b
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1127,7 +1124,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000eeb1000000ca9a3b
+
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
