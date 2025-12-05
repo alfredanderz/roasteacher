@@ -15,7 +15,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 7
-    y: 53
+    y: 66
     width: 1083
     height: 755
   m_ShowMode: 4
@@ -1098,7 +1098,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 71.09985}
     m_SelectedIDs: 4acb0000
     m_LastClickedID: 52042
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000aaad0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1127,7 +1127,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000aaad0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
